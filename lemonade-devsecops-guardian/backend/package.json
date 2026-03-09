@@ -1,0 +1,19 @@
+{
+  "name": "lemonade-devsecops-guardian-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Lemonade DevSecOps Guardian",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "simple-git": "^3.27.0"
+  }
+}
